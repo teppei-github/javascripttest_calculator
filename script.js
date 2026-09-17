@@ -2,12 +2,9 @@
 //
 // HTML側の構造（参考）
 // - 画面表示: #display-main（メイン表示）, #display-sub（計算式などの補助表示）
-// - 数字ボタン: class="btn-number" / data-value="0"〜"9", "."
-// - 演算子ボタン: data-action="operator" / data-value="+", "-", "*", "/"
-// - クリア: data-action="clear"
-// - 削除（1文字消す）: data-action="delete"
-// - パーセント: data-action="percent"
-// - イコール: data-action="equal"
+// - 数字ボタン: #btn-0 〜 #btn-9, #btn-dot（小数点）
+// - 演算子ボタン: #btn-add（＋）, #btn-subtract（−）, #btn-multiply（×）, #btn-divide（÷）
+// - #btn-clear（C）, #btn-delete（←、1文字削除）, #btn-percent（%）, #btn-equal（=）
 //
 // 実装が必要な機能の例
 // - 数字ボタンを押すと画面に数字が追加される
